@@ -1,0 +1,15 @@
+{
+  "name": "smartswap",
+  "version": "1.0.0",
+  "description": "この Bot は自分のウォレットを監視して、スワップしたいトークンがウォレットに追加されたときに自動で好きな別のトークンにスワップしてくれます。デフォルトでは BSC チェーンで動いていますが、provider の値を変更すれば他のチェーン上でも動きます。",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.6.9"
+  }
+}
